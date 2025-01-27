@@ -30,7 +30,7 @@ This project was developed in approximately 4 hours, including frontend and back
 
 ### Live Deployment
 
-You can view the live version of the project here: [Task Tracker App (Live) (Add the actual link)](https://wyfpgyfdfxv9hxdi.vercel.app/)
+You can view the live version of the project here: [Task Tracker App](https://wyfpgyfdfxv9hxdi.vercel.app/)
 
 ### Video Demonstration
 
