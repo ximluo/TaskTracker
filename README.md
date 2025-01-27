@@ -2,7 +2,7 @@
 
 ## Project Summary
 
-Task Tracker is a responsive web application designed to help users efficiently manage their daily tasks. Users can create, update, track, and delete tasks, with real-time progress tracking. The app provides a smooth user experience with features like timers, task completion progress, and dark mode support. It also includes secure user authentication and task persistence using a backend API and database.
+Task Tracker is a responsive web application designed to help users efficiently manage their daily tasks. Users can create, update, track, and delete tasks, with real-time progress tracking. The app provides a smooth user experience with features like timers, task completion progress, and dark mode support. It also includes secure user authentication and task persistence using a backend API and database. First time working with TypeScript and working with MongoDB
 
 ## Features
 
@@ -43,8 +43,8 @@ Node.js (v16+), MongoDB, Git
 
 Installation Steps
 	
-   1.	Clone the repository
-   2.	Set up the backend:
+   1.	Clone this repo
+   2.	Set up the backend (https://github.com/ximluo/TaskTrackerBackend):
       
    Navigate to the backend directory:
 
