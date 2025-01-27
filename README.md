@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Task Tracker
 
-## Getting Started
+## Project Summary
 
-First, run the development server:
+Task Tracker is a responsive web application designed to help users efficiently manage their daily tasks. Users can create, update, track, and delete tasks, with real-time progress tracking. The app provides a smooth user experience with features like timers, task completion progress, and dark mode support. It also includes secure user authentication and task persistence using a backend API and database.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Frontend
+	•	User-Friendly Interface: Built with modular React components for tasks, forms, and UI elements.
+	•	Real-Time Updates: Progress bars for task completion, providing live feedback.
+	•	Dark Mode: Toggle between light and dark themes for improved usability.
+	•	Mobile Responsiveness: Fully responsive design for seamless use on mobile, tablet, and desktop devices.
+	•	Animations: Smooth hover effects and progress bar animations for a polished look.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Backend
+	•	Secure Authentication: User registration, login, and logout with JWT-based authentication.
+	•	Task Operations: REST API endpoints for creating, reading, updating, and deleting tasks.
+	•	Persistent Storage: Task data is securely stored in MongoDB.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Full-Stack
+	•	Frontend-Backend Communication: React (frontend) seamlessly integrates with Node.js/Express (backend).
+	•	Deployment: Vercel
 
-## Learn More
+## Development Time
 
-To learn more about Next.js, take a look at the following resources:
+This project was developed in approximately 4 hours, including frontend and backend integration.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Running the Project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Live Deployment
 
-## Deploy on Vercel
+You can view the live version of the project here: [Task Tracker App (Live) (Add the actual link)](https://wyfpgyfdfxv9hxdi.vercel.app/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Video Demonstration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Watch the demo on YouTube: [YouTube Link ](https://youtube.com/shorts/6ec-g2GlfkI?feature=share)
+
+### Running Locally
+
+Prerequisites: 
+Node.js (v16+), MongoDB, Git
+
+Installation Steps
+	
+   1.	Clone the repository
+   2.	Set up the backend:
+      
+   Navigate to the backend directory:
+
+      cd backend
+
+Install dependencies:
+
+      npm install
+
+
+Create a .env file:
+
+      touch .env
+
+Add the following environment variables to .env:
+
+      PORT=5000
+      MONGO_URI=<Your MongoDB connection string>
+      JWT_SECRET=<Your secret key>
+
+Start the backend server:
+
+      npm start
+
+Set up the frontend
+
+Navigate to the frontend directory:
+
+      cd ../frontend
+
+
+Install dependencies:
+
+      npm install
+
+
+Start the development server:
+
+      npm start
+
+
+Access the application:
+      Open your browser and visit: http://localhost:3000
+
+## Features in Detail
+
+### Frontend
+	•	Modular and user-friendly React components.
+	•	Real-time progress tracking for task completion.
+	•	Dark mode toggle for improved usability.
+	•	Fully responsive design optimized for mobile, tablet, and desktop.
+
+### Backend
+	•	API endpoints for task operations
+	•	JWT-based authentication to ensure secure user sessions.
+	•	Persistent task storage using MongoDB.
+
+### Full-Stack Integration
+	•	RESTful API built with Express.js, consumed by React on the frontend.
+	•	Deployment using Vercel
